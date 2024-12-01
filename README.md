@@ -25,7 +25,7 @@ This is done from a web app where users can chat with a codebase. Where the cont
 
 ## Notes
 ##### Nohup Command
-Prevents signals of closing/exiting terminal/shell to be received
+Prevents signals of closing/exiting terminal/shell from being received
 - any information that would normally be sent to the terminal will get sent to nohup.out file (such as errors) unless the nohup command is redirected to some other file
   - can also be considered a default file for stdout and stderr
 
