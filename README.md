@@ -24,12 +24,15 @@ This is done from a web app where users can chat with a codebase. Where the cont
 - Groq
 
 ## Notes
-...
+##### Nohup Command
+Prevents signals of closing/exiting terminal/shell to be received
+- any information that would normally be sent to the terminal will get sent to nohup.out file (such as errors) unless the nohup command is redirected to some other file
+  - can also be considered a default file for stdout and stderr
 
 ## Development Issues
 
 ##### Currently Working on:
-- While developing a Streamlit app in Colab I ran into an issue where the session_state feature for streamlit wasn't updating the UI. But I did find a [discussion](https://discuss.streamlit.io/t/updating-state-variable-doesnt-rerun-the-app/47470) about using a callback widget that can trigger a UI rerun.
+- While developing a Streamlit app in Colab I ran into an issue where the [session_state](https://docs.streamlit.io/develop/api-reference/caching-and-state/st.session_state) feature for streamlit wasn't updating the UI. But I did find a [discussion](https://discuss.streamlit.io/t/updating-state-variable-doesnt-rerun-the-app/47470) about using a callback widget that can trigger a UI rerun.
 - Ran into a styling issue where the input fields were being held right below the initial bot messages instead of at the bottom of the screen. Also, new messages would appear beneath the input fields and only properly display after a manual rerun was done.
 
 ## Resources
@@ -45,6 +48,7 @@ This is done from a web app where users can chat with a codebase. Where the cont
 - [How embeddings are Generated](https://arxiv.org/abs/1301.3781)
 - [Headstarter Project](https://github.com/team-headstart/CodebaseRAG/tree/main)
 - [5 levels of text-splitting retrieval](https://www.youtube.com/watch?v=8OJC21T2SL4)
+- [nohup Command](https://www.geeksforgeeks.org/nohup-command-in-linux-with-examples/)
 
 ## Coming Soon
 - Add support for image uploads when chatting with the codebase - this is called Multimodal RAG.
