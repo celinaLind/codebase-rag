@@ -43,6 +43,7 @@ This is done from a web app where users can chat with a codebase. Where the cont
 - [How Greptile does Codebase RAG](https://news.ycombinator.com/item?id=39604961)
 - [RAG Codebase with 10k Repos](https://www.qodo.ai/blog/rag-for-large-scale-code-repos/)
 - [How embeddings are Generated](https://arxiv.org/abs/1301.3781)
+- [Headstarter Project](https://github.com/team-headstart/CodebaseRAG/tree/main)
 
 ## Coming Soon
 - Add support for image uploads when chatting with the codebase - this is called Multimodal RAG.
